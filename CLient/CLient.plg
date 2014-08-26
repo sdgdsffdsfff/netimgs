@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CLient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\liyu\AppData\Local\Temp\RSP4F70.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CLient.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\liyu\Desktop\MFC实现的网络传输图片\netimgsample\netimgsample\CLient\CLientDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\liyu\AppData\Local\Temp\RSP4F70.tmp" 
+<h3>Output Window</h3>
+Compiling...
+CLientDlg.cpp
+c:\users\liyu\desktop\mfc实现的网络传输图片\netimgsample\netimgsample\client\clientdlg.cpp(4) : fatal error C1083: Cannot open precompiled header file: 'Debug/CLient.pch': No such file or directory
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+CLientDlg.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
